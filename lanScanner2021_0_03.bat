@@ -1,6 +1,6 @@
 @echo off
 color 97
-Title LanScanner by mbnq.pl (proxine) v.2021.0.40 ^
+Title LanScanner by mbnq.pl (proxine) v.2021.0.40
 
 	set IP1=0
 	set IP2=0
