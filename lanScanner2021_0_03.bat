@@ -1,6 +1,6 @@
 @echo off
 color 97
-Title LanScanner by mbnq.pl (proxine) v.2021.0.35 ^
+Title LanScanner by mbnq.pl (proxine) v.2021.0.40 ^
 
 	set IP1=0
 	set IP2=0
@@ -61,7 +61,7 @@ REM start scanning
 
 	set IPALL=%IP1%.%IP2%.%IP3%.%IP4%
 	
-	Title LanScanner by mbnq.pl (proxine) v.2021.0.3 ^| %IPALL%
+	Title LanScanner by mbnq.pl (proxine) v.2021.0.40 ^| %IPALL%
 
 	for /f "tokens=5 delims= " %%a in ('ping %IPALL% -n 1 -w 100 ^| find /i
 	"time="') do (
@@ -96,7 +96,7 @@ REM displaying found value
 
 	echo:
 	echo:Finished.
-	Title LanScanner by mbnq.pl (proxine) v.2021.0.3 ^| FINISHED
+	Title LanScanner by mbnq.pl (proxine) v.2021.0.40 ^| FINISHED
 	
 pause > nul
 	
